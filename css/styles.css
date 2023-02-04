@@ -32,14 +32,18 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+}
 .container {
-  width: 1128px;
+  width: 1158px;
   margin: 0 auto;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .navigation {
   display: flex;
@@ -153,6 +157,7 @@ p {
   cursor: pointer;
   padding: 12px 24px;
 }
+
 .main-portfolio {
   padding-top: 96px;
 }
@@ -185,11 +190,18 @@ p {
   letter-spacing: 0.02em;
   color: var(--mainColor);
 }
+.header-portfolio {
+  padding: 32px 0 8px 16px;
+}
 .text {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--textColor);
+}
+.text-portfolio {
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 .current {
   color: var(--accent);
@@ -197,7 +209,14 @@ p {
 .samples {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
+  padding-bottom: 120px;
+}
+.sample-item {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .company-header {
