@@ -119,9 +119,11 @@ img {
 }
 
 .hero-title {
+  width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  margin: 0 auto;
   letter-spacing: 0.02em;
   color: var(--white);
   /* background: var(--mainColor); */
@@ -134,7 +136,7 @@ img {
   text-align: center;
 }
 .btn {
-  margin: 0 auto;
+  margin-top: 48px;
   font-family: 'Roboto';
   width: 169px;
   height: 56px;
@@ -282,10 +284,11 @@ img {
 .studio-footer {
   background: var(--mainColor);
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-text {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--footerText);
-  padding: 16px 0 120px 0;
+  margin-top: 16px;
 }
