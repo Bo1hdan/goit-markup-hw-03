@@ -137,12 +137,9 @@ img {
   text-align: center;
 }
 .btn {
-  display: inline-block;
-  width: 169px;
   margin-top: 48px;
+  padding: 16px 32px;
   font-family: 'Roboto';
-
-  height: 56px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
